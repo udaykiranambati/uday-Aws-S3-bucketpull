@@ -14,3 +14,10 @@ jobs:
        - name: hello world
          run: echo "hellow world Praveen!"
          shell: bash
+  bye:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Bye
+        run: echo "Bye Praveen!"
+        shell: bash
