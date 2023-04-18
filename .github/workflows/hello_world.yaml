@@ -3,7 +3,7 @@ name: Hello world first workflow
 on:
  push:
   paths: 
-     - "'**'"
+#      - "'**'"
      - "'hello_world.yaml'"
  workflow_dispatch:
 
